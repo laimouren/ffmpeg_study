@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <inttypes.h>
 extern "C" {
     #include <libavutil/log.h>
     #include <libavformat/avformat.h>
@@ -28,6 +28,7 @@ int main(void) {
         if (!entry) {
             break; // No more entries
         }
+        av_log(nullptr, AV_LOG_INFO, "Entry type: %d\n", entry->type);
 
         av_log(nullptr, AV_LOG_INFO, "%12"PRId64" %s\n", entry->size, entry->name);
         avio_free_directory_entry(&entry);
