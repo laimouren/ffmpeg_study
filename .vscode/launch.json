@@ -8,10 +8,11 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/${fileBasenameNoExtension}.out",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
             "args": [
-                "input.mp4",
-                "output.mp4",
+                // "input.mp4",
+                "output.aac",
+                "libx264",
                 "8",
                 "10"
             ],

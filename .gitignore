@@ -64,3 +64,25 @@ Release/
 # =====================
 *.mp4
 *.mov
+*.h264
+*.aac
+*.wav
+*.avi
+*.mkv
+*.flv
+*.jpg
+*.png
+*.bmp
+*.jpeg
+*.gif
+*.ico
+*.svg
+*.tiff
+*.mp3
+*.ogg
+*.webm
+*.m4a
+*.flac
+*.heic
+*.pdf
+*.txt
