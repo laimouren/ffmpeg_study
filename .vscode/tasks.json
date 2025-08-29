@@ -16,6 +16,7 @@
                 "-lavformat",
                 "-lavutil",
                 "-lavcodec",
+                "-lswscale"
             ],
             "options": {
                 "cwd": "${fileDirname}"

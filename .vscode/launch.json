@@ -10,8 +10,9 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}.out",
             "args": [
-                // "input.mp4",
-                "output.aac",
+                "input.mp4",
+                "out",
+                // "output.aac",
                 "libx264",
                 "8",
                 "10"
