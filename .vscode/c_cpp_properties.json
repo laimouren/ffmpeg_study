@@ -4,7 +4,10 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/homebrew/Cellar/ffmpeg/7.0.1/include"
+                // MacBookß使用下面的路径
+                // "/opt/homebrew/Cellar/ffmpeg/7.0.1/include"
+                // MacMini使用下面的路径ß
+                "/Volumes/alive/ffmpeg/build-debug/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang++",
