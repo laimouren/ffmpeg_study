@@ -12,15 +12,18 @@
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}.out",
                 // MacBook使用下面的路径ßß
-                // "-I/opt/homebrew/Cellar/ffmpeg/7.0.1/include",
-                // "-L/opt/homebrew/Cellar/ffmpeg/7.0.1/lib",
+                "-I/opt/homebrew/Cellar/ffmpeg/7.0.1/include",
+                "-L/opt/homebrew/Cellar/ffmpeg/7.0.1/lib",
                 // MacMini使用下面的路径
-                "-I/Volumes/alive/ffmpeg/build-debug/include",
-                "-L/Volumes/alive/ffmpeg/build-debug/lib",
+                // "-I/Volumes/alive/ffmpeg/build-debug/include",
+                // "-L/Volumes/alive/ffmpeg/build-debug/lib",
                 "-lavformat",
                 "-lavutil",
                 "-lavcodec",
-                "-lswscale"
+                "-lswscale",
+                "-I/usr/local/include/SDL2",
+                "-L/usr/local/lib",
+                "-lSDL2"
             ],
             "options": {
                 "cwd": "${fileDirname}"
